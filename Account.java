@@ -67,7 +67,7 @@ public class Account {
 
     @Override
     public String toString() {
-        String accountDetailsFormat = "Customer Details:\n Customer ID: %s\nCustomer Name: %sCustomer Address: %sCustomer Phone: %sCustomer Balance: %s";
+        String accountDetailsFormat = "\nCustomer ID: %s\nCustomer Name: %s\nCustomer Address: %s\nCustomer Phone: %s\nCustomer Balance: %s";
         return String.format(accountDetailsFormat, this.custID, this.custName, this.custAddress, this.custPhone, this.balance);
     }
 }
